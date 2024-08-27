@@ -1,0 +1,24 @@
+.album {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.album-item {
+  margin: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.album-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.album-item p {
+  font-size: 1rem;
+  color: #333;
+}
